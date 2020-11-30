@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="erueka-server" />
+        <module name="eureka-client" />
+        <module name="eureka-consumer" />
+        <module name="eureka-server-peer" />
+        <module name="eureka-server-peer (1)" />
+        <module name="eureka-server-peer2" />
+        <module name="feign-client" />
+        <module name="feign-client-intf" />
+        <module name="feign-consumer" />
+        <module name="hystrix-fallback" />
+        <module name="ribbon-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="erueka-server" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-server-peer" target="1.8" />
+      <module name="eureka-server-peer2" target="1.8" />
+      <module name="feign-client" target="1.8" />
+      <module name="feign-client-intf" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="hystrix-fallback" target="1.8" />
+      <module name="ribbon-consumer" target="1.8" />
+      <module name="spring-cloud-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
