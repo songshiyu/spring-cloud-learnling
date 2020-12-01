@@ -21,4 +21,9 @@ public class Controller {
     public String fallback() {
         return myService.error();
     }
+
+    @GetMapping("/timeout")
+    public String timeout(Integer timeout) {
+        return myService.retry(timeout);
+    }
 }

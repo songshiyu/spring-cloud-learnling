@@ -9,7 +9,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author songshiyu
- * @date 2020/11/30 22:22appappsdasasdasdsa da
+ * @date 2020/11/30 22:22
  **/
 @SpringBootApplication
 @EnableDiscoveryClient
